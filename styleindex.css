@@ -1,0 +1,132 @@
+.imagem-principal{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+ }
+ 
+ .imagem-principal-img{
+    width: 120%;
+    padding: 0;
+    margin-left: -6%;
+ }
+ 
+ .imagem-principal-quebra{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+     
+ }
+
+ figcaption.imagem-principal-titulo{
+    text-align: justify;
+    position: absolute;
+    font-size: 50px;
+    left: 5%;
+    top: 30%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+ }
+
+ figcaption.imagem-principal-subtitulo{
+    text-align: justify;
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 58%;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+ }
+
+ figcaption.imagem-principal-botao{
+    text-align: justify;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    border: 1px white solid;
+    padding: 1.5%;
+    border-radius: 10px;
+ }
+
+.imagem-principal-botao-escrita{
+    width: 100%;
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    padding-right: 12%;
+    white-space: nowrap;
+}
+
+.imagem-principal-botao-escrita:hover{
+    color: red;
+    background-color: white;
+ }
+
+ .imagem-principal-botao:hover{
+    background-color: white;
+ }
+ 
+.imagem-principal-botao-escrita{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.conteudo-principal-titulo{
+    padding: 2%;
+    margin: 3%;
+    font-size: 40px;
+    color: #646464;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around; 
+    flex-wrap: nowrap;
+    gap: 2%;
+    margin: 4%;
+}
+
+.conteudo-principal-noticia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;   
+    align-items: center;
+}
+
+.conteudo-principal-noticia-imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    width: 316px;
+    height: 316px;
+}
+ 
+.conteudo-principal-noticia-titulo{
+    color: #f92c2c;
+    font-size: 12px;
+    margin-bottom: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    
+}
+
+.conteudo-principal-noticia-escrito{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #646464;
+    letter-spacing: 1px;
+    padding-right: 1px;   
+}
+

@@ -1,0 +1,143 @@
+.conteudo-principal{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: center; 
+   flex-wrap: nowrap;
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-top: 2%;
+   padding-bottom: 5%;
+   background: linear-gradient(150.69deg,#ffffff 5.64%,rgba(255,255,255,0) 139.39%),#e5e5e5;
+   
+}
+.conteudo-principal-escrito{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   flex-wrap: nowrap;
+   padding: 2%;
+   margin:5%;
+}
+
+.conteudo-principal-titulo{
+   margin-bottom: 2%;
+   margin-top: 2%;
+   font-size: 40px;
+   color: #646464;
+   letter-spacing: 1px;  
+}
+
+.conteudo-principal-texto{
+   margin-bottom: 2%;
+   margin-top: 2%;
+   font-size: 18px;
+   color: #646464;
+   letter-spacing: 1px;  
+}
+
+.conteudo-principal-imagem{
+    margin-top: 14%;
+    border-radius: 5%;  
+}
+
+.conteudo-secundario{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+   flex-wrap:wrap;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.imagem-principal{
+   text-align: center;
+   display: inline-block;
+   position: relative;
+}
+
+.imagem-principal-img{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.imagem-principal-quebra{
+   text-align: center;
+   padding: 0;
+   margin: 0;
+    
+}
+
+figcaption{
+   text-align: center;
+   position: absolute;
+   font-size: 32px;
+   left: 28%;
+   top: 65%;
+   color: white;
+   font-size: 60px;
+   font-weight: 600;
+   letter-spacing: .02em;
+}
+
+.conteudo-secundario-titulo{
+      background-color: #f92c2c;
+      font-size: 160%;
+      font-weight: 600;
+      border-radius: 5px;
+      padding: 5%;
+      margin-left: 55%;
+      width: 100%;
+      color: white;
+
+}
+.conteudo-secundario-titulo2{
+   font-weight: lighter;
+   color: white;
+}
+
+.conteudo-secundario-imagem{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start; 
+   flex-wrap: wrap;
+   gap:7.5%;
+   padding: 1%;
+}
+
+.conteudo-secundario-texto{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start; 
+   gap: 5%;
+   align-content:center;
+   flex-wrap: wrap;
+}
+
+.conteudo-secundario-linhadotempo-imagem{
+   border-radius: 20px;
+}
+
+.conteudo-secundario-linhadotempo{
+   display: inline-block;
+   position: relative;
+   padding: 1%;
+   margin-top: 5%; 
+   margin-left:30%; 
+}
+
+figcaption.conteudo-secundario-linhadotempo-ano{
+   text-align: center;
+   position: absolute;;
+   left: -100px;
+   top: 280px;
+   color: #f92c2c;
+   font-size: 200px;
+   font-weight: 600;
+   letter-spacing: .02em;
+
+}
